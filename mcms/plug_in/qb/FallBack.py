@@ -49,12 +49,12 @@ class FallBack(PlugInBase):
 
     def exec2(self):
         '''OP相关'''
-        # 判断是否是OP
         if self.args[0] == "make":
             self.make()
         elif self.args[0] == "remove":
             self.remove()
         elif self.args[0] == "reload":
+            # 判断是否是OP
             if not self.player in self.core.operate_set:
                 self.core.thread_item.server.say("Not Sufficient Permissions", self.player)
                 return
