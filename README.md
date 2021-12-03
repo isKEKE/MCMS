@@ -9,11 +9,11 @@
   - ```python
     '''伪OP'''
     # 权限：伪OP；介绍：添加伪OP
-    !!qb add 玩家名称
+    !!op add 玩家名称
     # 权限：伪OP；介绍：删除伪OP
-    !!qb remove 玩家名称
+    !!op remove 玩家名称
     # 权限：伪OP；介绍：显示伪OP名单
-    !!qb list
+    !!op list
     ```
 
 - `!!whitelist`
