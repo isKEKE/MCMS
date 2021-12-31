@@ -70,9 +70,9 @@
     # 权限：伪OP; 介绍：关闭烟花线程
     !!fire off
     # 权限：伪OP; 介绍：获得当前烟花秀坐标
-    !!qb show
+    !!fire show
     # 权限：伪OP；介绍：记录烟花秀中心坐标
-    !!qb pos x y z
+    !!fire pos x y z
     ```
 
 
